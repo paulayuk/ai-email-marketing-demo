@@ -13,6 +13,9 @@ return new class extends Migration
     {
         Schema::create('email_settings', function (Blueprint $table) {
             $table->id();
+            $table->string('user_id');
+            $table->string('live_key');
+            $table->string('webhook_url');
             $table->timestamps();
         });
     }
