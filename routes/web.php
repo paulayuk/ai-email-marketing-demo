@@ -13,7 +13,7 @@ Route::get('/dashboard', function () {
 
 Route::get('/messages', function () {
     return view('messages');
-})->middleware(['auth', 'verified'])->name('messages');
+})->middleware(['auth', 'verified'])->name('messagesw');
 
 Route::get('/contacts', function () {
     return view('contacts');
