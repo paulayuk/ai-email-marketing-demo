@@ -16,7 +16,7 @@ class EmailSetting extends Model
      */
     protected $fillable = [
         'user_id',
-        'live_key',
+        'api_key',
         'webhook_url',
     ];
 }
