@@ -18,7 +18,7 @@
                             <x-text-input id="your_api_key" name="api_key" type="text" class="mt-1 block w-full" placeholder="Your sendgrid secret key"/>
                         </div>
                         <div class="flex items-center gap-4">
-                            <x-primary-button>{{ __('Save') }}</x-primary-button>
+                            <x-primary-button>{{ __('Connect') }}</x-primary-button>
 
                             @if (session('status') === 'api-key-saved')
                                 <p
